@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.sptingframework.org/schema/context/spring-contect.xsd">
+	
+	<!-- all the beans goes here -->
+	<!-- this is example for setter injection value as a element-->
+	<bean id="" class="com.springcore.springcore.Student" name="student1">
+		<property name="studentId">
+			<value>22332</value>
+		</property>
+		<property name="studentName">
+			<value>MishanGoti</value>
+		</property>
+		<property name="studentAddress">
+			<value>1257OttawaStS</value>
+		</property>
+	</bean>
+	
+</beans>
