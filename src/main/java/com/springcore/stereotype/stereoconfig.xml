@@ -19,4 +19,6 @@
 		<value>Kanpur</value>
 	</util:list>
 	
-</beans>
+<!-- 	<bean class="com.springcore.srandalone.stereoconfig.Teacher" name="teacher" scope="prototype"></bean>
+ -->
+ </beans>
